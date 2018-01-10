@@ -84,10 +84,15 @@ text-shadow: 0.125px 0.125px 0.25px rgba(0, 0, 0, 0.5);
 
 
 .feature 
+{
+text-shadow: 0.125px 0.125px 0.25px rgba(0, 0, 0, 0.5);
 
-{ font-weight: 300; 
-letter-spacing: 0.75px;
 }
+
+.feature a {
+	text-decoration: underline; ;
+}
+
 
 #Linkedin {
 	color: #0077B5;
