@@ -101,7 +101,8 @@ h3.soustitre {
 
 #wrapper { 
 
-background-image: url("../Image/background_image.jpg");
+
+background-color: #EFF1F2;
 background-size: cover;
 padding-top: 20px;
 padding-bottom: 20px;
