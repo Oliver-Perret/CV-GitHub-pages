@@ -32,6 +32,26 @@ body {
   color: white;
 }
 
+
+#toggle{height:auto; background:#eee; border:1px solid #900; margin:1em;}
+#toggle p{text-align:center;padding:0}
+
+#toggle1{height:auto; background:#eee; border:1px solid #900; margin:1em;}
+#toggle1 p{text-align:center;padding:0}
+
+#toggle3{height:auto; background:#eee; border:1px solid #900; margin:1em;}
+#toggle3 p{text-align:center;padding:0}
+
+li 
+{ 	list-style-type: none;
+
+ }
+
+.fleche li:before {
+
+	content: "→ "; /* caractère UTF-8 */
+}
+
 h3.soustitre {
 	padding-bottom: 15px;
 	letter-spacing: 0.75px;
@@ -43,9 +63,15 @@ h3.soustitre {
 	padding-bottom: 20px;
 }
 
+
+
 .ExperiencesPro
 {
 	padding-bottom: 20px;
+}
+
+.detailuptilab
+{ font-size: 9px; 
 }
 
 .spacer {
@@ -109,7 +135,7 @@ img:hover{
 }
 
 .soustitre {
-	text-align: center;
+	text-decoration: underline;
 }
 
 li .footer {
