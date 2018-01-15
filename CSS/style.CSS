@@ -42,6 +42,13 @@ body {
 #toggle3{height:auto; background:#FFFFFF; border:0.5px solid #152152; margin:1em;}
 #toggle3 p{text-align:center;padding:0}
 
+
+
+#contactformbutton {
+	text-align: center;
+}
+
+
 li 
 { 	list-style-type: none;
 
