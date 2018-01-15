@@ -44,9 +44,6 @@ body {
 
 
 
-#contactformbutton {
-	text-align: center;
-}
 
 
 li 
@@ -69,11 +66,10 @@ h3.soustitre {
 #encadre_soustitre {
 	border:1px solid;
 	border-style: dotted solid;
-	margin: 0.5em;
+	
 	text-align: center;
 	padding-top: 0.1cm;
 	margin-bottom: 0,1cm;
-	margin-left: 2em;
 }
 
 .ParcoursAcademique 
