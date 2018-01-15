@@ -53,16 +53,20 @@ li
 }
 
 h3.soustitre {
-	padding-bottom: 15px;
+
+	padding-bottom: 0.7em;
+	padding-top: 0.3em;
 	letter-spacing: 0.75px;
 }
 
-.row .encadre {
+#encadre_soustitre {
 	border:1px solid;
 	border-style: dotted solid;
 	margin: 0.5em;
 	text-align: center;
-	padding: 
+	padding-top: 0.1cm;
+	margin-bottom: 0,1cm;
+	margin-left: 2em;
 }
 
 .ParcoursAcademique 
@@ -75,8 +79,17 @@ h3.soustitre {
 
 .ExperiencesPro
 {
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+
+.Hobbies
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 
 .detailuptilab
 { font-size: 9px; 
