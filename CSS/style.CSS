@@ -1,6 +1,7 @@
 body {
 	background-image: url("../Image/grid.jpg");
-
+	background-color: #FFFFFF;
+	right:0;
 	font-family: "Open Sans";
 }
 
@@ -124,8 +125,8 @@ h3.soustitre {
 
 
 #wrapper { 
-
-
+width: 100%;
+right: 0;
 background-color: #FFFFFF;
 background-size: cover;
 padding-top: 20px;
