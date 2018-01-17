@@ -104,6 +104,12 @@ h3.soustitre {
 	height: 4em;
 }
 
+
+.bigspacer {
+
+	height: 8em;
+}
+
 #footer {
 
 	background-color:  rgba(0, 0, 0, 0.7);

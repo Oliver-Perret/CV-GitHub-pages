@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Start of Async Drift Code -->
+
+
+          <script>
+          !function() {
+            var t;
+            if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+            t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n;
+                return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e, n, o, i;
+              e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+              n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+            });
+          }();
+          drift.SNIPPET_VERSION = '0.3.1';
+          drift.load('47nezpumb8fb');
+          </script>
+<!-- End of Async Drift Code -->
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Oliver Perret</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.CSS">
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  </head>
+  <body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#index.html"> Oliver Perret </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#ParcoursAcademique">Formation<span class="sr-only">(current)</span></a></li>
+        <li><a href="#ExperiencesPro">Expériences Pro</a></li>
+        <li><a href="#Hobbies">Hobbies </a></li>
+       
+          
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+       <li>
+        <a href="contact.html">Contact </a> 
+                                    
+       </li>    
+
+        <li> 
+            <a href="https://www.linkedin.com/in/oliver-perret-46a42a111/"> 
+                 <i class="fa fa-linkedin" aria-hidden="true" id="Linkedin" ></i>
+            </a>
+        </li>
+
+
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!-- body -->
+<div class="bigspacer"> </div>
+
+
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-sm-6">
+          <div id="map" style="width: 100%; height: 400px;"></div>
+
+                  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+                  <script type="text/javascript">
+                    var myLatlng = new google.maps.LatLng(48.7659300,1.9081060);
+
+                    var myOptions = {
+                        zoom: 14,
+                        center: myLatlng,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        styles: [
+                                      {
+                                          "featureType": "all",
+                                          "elementType": "labels",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "off"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "saturation": "52"
+                                              },
+                                              {
+                                                  "color": "#ff0000"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative",
+                                          "elementType": "labels",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative.locality",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "saturation": "-2"
+                                              },
+                                              {
+                                                  "color": "#60ff43"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative.locality",
+                                          "elementType": "labels.text.stroke",
+                                          "stylers": [
+                                              {
+                                                  "weight": 2.7
+                                              },
+                                              {
+                                                  "color": "#f4f9e8"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative.land_parcel",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "saturation": "86"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative.land_parcel",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "administrative.land_parcel",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "landscape.man_made",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "color": "#718e32"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "landscape.man_made",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "landscape.man_made",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "saturation": "-100"
+                                              },
+                                              {
+                                                  "hue": "#ff0000"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "landscape.natural",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "color": "#a4cc48"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "landscape.natural",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "poi.business",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "saturation": 68
+                                              },
+                                              {
+                                                  "lightness": -61
+                                              },
+                                              {
+                                                  "visibility": "off"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "poi.park",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "color": "#ffffff"
+                                              },
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "weight": 1
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "invert_lightness": true
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway",
+                                          "elementType": "labels",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "simplified"
+                                              },
+                                              {
+                                                  "gamma": 1.14
+                                              },
+                                              {
+                                                  "saturation": -18
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway.controlled_access",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway.controlled_access",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway.controlled_access",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "off"
+                                              },
+                                              {
+                                                  "saturation": "-62"
+                                              },
+                                              {
+                                                  "color": "#ff0000"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway.controlled_access",
+                                          "elementType": "geometry.stroke",
+                                          "stylers": [
+                                              {
+                                                  "weight": 1.5
+                                              },
+                                              {
+                                                  "saturation": "-100"
+                                              },
+                                              {
+                                                  "lightness": 28
+                                              },
+                                              {
+                                                  "visibility": "off"
+                                              },
+                                              {
+                                                  "color": "#e53013"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.highway.controlled_access",
+                                          "elementType": "labels",
+                                          "stylers": [
+                                              {
+                                                  "saturation": 30
+                                              },
+                                              {
+                                                  "gamma": 0.76
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.local",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "weight": 0.4
+                                              },
+                                              {
+                                                  "lightness": -8
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.local",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "road.local",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "color": "#64c832"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "transit.line",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "color": "#f80000"
+                                              },
+                                              {
+                                                  "weight": "1.88"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "all",
+                                          "stylers": [
+                                              {
+                                                  "color": "#4aaecc"
+                                              },
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "geometry",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "geometry.fill",
+                                          "stylers": [
+                                              {
+                                                  "weight": "2.32"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "geometry.stroke",
+                                          "stylers": [
+                                              {
+                                                  "weight": "2.02"
+                                              },
+                                              {
+                                                  "visibility": "on"
+                                              },
+                                              {
+                                                  "color": "#00ccff"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "labels.text.fill",
+                                          "stylers": [
+                                              {
+                                                  "weight": "0.01"
+                                              },
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "labels.text.stroke",
+                                          "stylers": [
+                                              {
+                                                  "weight": "0.01"
+                                              },
+                                              {
+                                                  "visibility": "on"
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "featureType": "water",
+                                          "elementType": "labels.icon",
+                                          "stylers": [
+                                              {
+                                                  "visibility": "on"
+                                              }       
+                                          ]
+                                      }
+                                  ]
+                    };
+
+                    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+                    var marker = new google.maps.Marker({
+                        position: myLatlng,
+                        map: map,
+                        title: "You are here!"
+                    });
+                  </script>
+
+        </div>
+
+        <div class="col-sm-6">
+          <h1> Contact </h1>
+
+          <p> <i class="fa fa-map-marker" aria-hidden="true"></i> 5 rue des fougères 78310 Maurepas</p>
+
+          <p><i class="fa fa-phone" aria-hidden="true"></i> 07 63 20 57 60</p>
+
+        </div>
+
+    </div>
+
+</div>
+      
+   
+
+<!-- fin du body -->
+
+
+<!-- *********************************Formation************************************ -->
+
+
+                                        <!-- Title -->
+
+<br><br>
+   
+    
+
+    <!-- ******************************  Fin Hobbies ******************************-->
+
+                                    
+
+
+
+<!-- footer! -->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+          
+          <ul id="nav" class="list-inline">
+            <div class="col-xs-6 col-sm-3">    
+                <li class="footer"> 
+                    <a href="#ParcoursAcademique"> Parcours </a>
+                </li>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <li class="footer">
+                    <a href="#ExperiencesPro">Expériences pro </a>
+                </li>
+            </div>
+            <div class="col-xs-6  col-sm-3">
+                <li class="footer"> 
+                    <a href="#Hobbies">Mes Hobbies </a>
+                
+                </li>
+            </div>
+
+            <div class="col-xs-6 col-sm-3">
+                <li class="footer">
+                    <a href="https://www.linkedin.com/in/oliver-perret-46a42a111/"><i class="fa fa-linkedin" aria-hidden="true" id="Linkedin" ></i>
+                    </a>           
+                </li>
+            </div>
+
+        </div>
+     </div>
+
+          </ul> 
+
+       
+  
+
+
+<!-- fin du footer! -->
+    
+
+
+
+
+
+    
+  </body>
+</html>
