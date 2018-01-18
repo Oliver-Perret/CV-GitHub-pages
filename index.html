@@ -200,7 +200,7 @@ return false;
 
 
 
-<!-- Header -->
+<!-- *************************************Header *************************-->
 
 <div id="wrapper">
 
@@ -235,55 +235,9 @@ return false;
 
       </div>
 
+<!-- *********************************fin du header ****************************-->
 
-
-<br><br><br>
-<!-- *****************bouton form ==> contactez moi -->
-
-    <div class="container">
-        <div class="row col-xs-12 text-center">
-                <button type="button" class="btn btn-primary btn-lg " id="contactformbutton" data-toggle="modal" data-target="#contactform">
-                  Contactez moi
-                </button>
-        </div>       
-    </div>
-          <!-- Modal -->
-          <div class="modal fade" id="contactform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                
-                <div class="modal-body">
-                    <div id="wufoo-r2r8o7i0imeowz">
-                        Fill out my <a href="https://oliverperret.wufoo.com/forms/r2r8o7i0imeowz">online form</a>.
-                        </div>
-                        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
-                        <script type="text/javascript">var r2r8o7i0imeowz;(function(d, t) {
-                        var s = d.createElement(t), options = {
-                        'userName':'oliverperret',
-                        'formHash':'r2r8o7i0imeowz',
-                        'autoResize':true,
-                        'height':'583',
-                        'async':true,
-                        'host':'wufoo.com',
-                        'header':'show',
-                        'ssl':true};
-                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                        s.onload = s.onreadystatechange = function() {
-                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                        try { r2r8o7i0imeowz = new WufooForm();r2r8o7i0imeowz.initialize(options);r2r8o7i0imeowz.display(); } catch (e) {}};
-                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                        })(document, 'script');</script>
-            
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-   
-
-
-<!-- fin du header -->
+<div class="spacer"></div>
 
 
 <!-- *********************************Formation************************************ -->
@@ -291,7 +245,7 @@ return false;
 
                                         <!-- Title -->
 
-<br><br>
+
   
 
 <div class="container chapter-encadre">
@@ -302,7 +256,7 @@ return false;
             <div class="row">
                 <div class="row col-xs-12" >
                   
-                    <h3 class="soustitre" id="ParcoursAcademique">  Formation </h3>
+                    <h3 class="soustitre text-center" id="ParcoursAcademique">  Formation </h3>
                   
            
                </div>
@@ -311,7 +265,7 @@ return false;
               
                                           <!-- Body Formation -->
 
-      <div class="container majorcontent-padding"> 
+      <div class="container majorcontent-textorganisation"> 
         <div class="row">
 
                  <div class="row">
@@ -377,21 +331,20 @@ return false;
 
 
                                   <!-- Title expérience Pro-->
-<div class="container chapter-encadre">
-<div class="row">
 
-          <div class="container" >
-                
-                <div class="row">
-                    <div class="row col-xs-12" id="encadre_soustitre">
-                        
-                      
-                         <h3 class="soustitre" id="ExperiencesPro"> Mes expériences Professionnelles </h3>
-                      
-               
-                   </div>
-                </div> 
-          </div>    
+<div class="container chapter-encadre">
+    <div class="row">
+
+              <div class="container" >
+                    
+                    <div class="row">
+                        <div class="col-xs-12">
+                        <h3 class="soustitre text-center " > Mes expériences Professionnelles
+                        </h3>
+                        </div>
+              
+                    </div> 
+              </div>    
 
 
 
@@ -401,7 +354,7 @@ return false;
         <!--première Expérience Uptilab -->
 
 
-     <div class="container majorcontent-padding">
+     <div class="container majorcontent-textorganisation">
           
           <div class="row">
                      <div class="row">
@@ -688,6 +641,8 @@ return false;
     </div>
 
   </div>
+
+
 </div>
 <!-- Fin expérience Pro-->
 
@@ -703,14 +658,14 @@ return false;
                 
                 <div class="row">
                     <div class="row col-xs-12" id="encadre_soustitre">
-                       <h3 class="soustitre" id="Hobbies"> Mes Hobbies </h3>
+                       <h3 class="soustitre text-center" id="Hobbies"> Mes Hobbies </h3>
                    </div>
                 </div> 
           </div>    
                   
         <!-- Hobbies body-->
                   
-            <div class="container majorcontent-padding">
+            <div class="container majorcontent-textorganisation">
 
               <div class="row">
 
@@ -738,15 +693,54 @@ return false;
  </div>
     <!-- ******************************  Fin Hobbies ******************************-->
 
-                                    <div class="spacer">
-                                      
-                                    </div class="spacer">
 
 </div>
 
+ <!-- ******************************  bouton contactez moi ******************************-->
+    <div class="container" id="boutonfooter">
+        <div class="row col-xs-12 text-center">
+                <button type="button" class="btn btn-primary btn-lg " id="contactformbutton" data-toggle="modal" data-target="#contactform">
+                  Contactez moi
+                </button>
+        </div>       
+    </div>
+          <!-- Modal -->
+          <div class="modal fade" id="contactform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                
+                <div class="modal-body">
+                    <div id="wufoo-r2r8o7i0imeowz">
+                        Fill out my <a href="https://oliverperret.wufoo.com/forms/r2r8o7i0imeowz">online form</a>.
+                        </div>
+                        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+                        <script type="text/javascript">var r2r8o7i0imeowz;(function(d, t) {
+                        var s = d.createElement(t), options = {
+                        'userName':'oliverperret',
+                        'formHash':'r2r8o7i0imeowz',
+                        'autoResize':true,
+                        'height':'583',
+                        'async':true,
+                        'host':'wufoo.com',
+                        'header':'show',
+                        'ssl':true};
+                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                        s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try { r2r8o7i0imeowz = new WufooForm();r2r8o7i0imeowz.initialize(options);r2r8o7i0imeowz.display(); } catch (e) {}};
+                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                        })(document, 'script');</script>
+            
+                </div>
+                
+              </div>
+            </div>
+          </div>
 
 
-<!-- footer! -->
+
+<!--******************************************** footer!******************************** -->
+
 <div id="footer">
     <div class="container">
         <div class="row">
@@ -776,10 +770,11 @@ return false;
                 </li>
             </div>
 
+          </ul> 
+
         </div>
      </div>
 
-          </ul> 
 
 <!-- fin du footer! -->    
 

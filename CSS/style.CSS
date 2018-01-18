@@ -6,11 +6,7 @@ body {
 	letter-spacing: 1px;
 }
 
-h3 {
-	font-family: "Montserrat";
-	font-size: 32px;
-	line-height: 3px;
-}
+
 
 .navbar-transparent {
   background-color: rgba(0, 0, 0, 1);
@@ -87,24 +83,30 @@ li
 
 h3.soustitre {
 
-	padding-bottom: 0.7em;
+	padding-bottom: 0.5em;
 	padding-top: 0.3em;
 	letter-spacing: 0.75px;
 	color: #2A333C;
 }
+
+h3 {
+	font-family: "Montserrat";
+	font-size: 32px;
+}
+
 
 .chapter-encadre {
 	border:1px solid;
 	border-style: dotted solid;
 	border-radius: 5px;
 	box-shadow: 3px 3px 2px #E3E4E4;
-	
-	text-align: center;
+	background-color: white;
+
 	padding-top: 0.1cm;
 	margin-bottom: 0,1cm;
 }
 
-.majorcontent-padding
+.majorcontent-textorganisation
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -131,7 +133,7 @@ h3.soustitre {
 
 #footer {
 
-	background-color:  rgba(0, 0, 0, 0.7);
+	background-color:  rgba(0, 0, 0, 1);
 	color: #aaaaaa;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -166,7 +168,7 @@ text-shadow: 0.125px 0.125px 0.25px rgba(0, 0, 0, 0.5);
 }
 
 .feature a {
-	text-decoration: underline; ;
+	text-decoration: underline; 
 }
 
 
@@ -190,3 +192,5 @@ li .footer {
 	list-style-type: none;
 }
 
+#boutonfooter
+{ margin: 0.5cm; }
