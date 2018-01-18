@@ -40,16 +40,38 @@ h3 {
 }
 
 
-#toggle{height:auto; background:#FFFFFF; border:0.5px solid #152152; margin:1em;}
+#toggle{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
 #toggle > p{text-align:center;padding:0;}
 
-#toggle1{height:auto; background:#FFFFFF; border:0.5px solid #152152; margin:1em;}
+#toggle1{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
 #toggle1 p{text-align:center;padding:0}
 
-#toggle3{height:auto; background:#FFFFFF; border:0.5px solid #152152; margin:1em;}
+#toggle3{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
 #toggle3 p{text-align:center;padding:0}
 
 
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #C12127;
+    border-color:  #C12127;
+}
+
+
+#header {
+
+	
+}
+
+
+a {
+  color:  #C12127;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #434343;
+  text-decoration: none;
+}
 
 
 
@@ -68,11 +90,14 @@ h3.soustitre {
 	padding-bottom: 0.7em;
 	padding-top: 0.3em;
 	letter-spacing: 0.75px;
+	color: #2A333C;
 }
 
 #encadre_soustitre {
 	border:1px solid;
 	border-style: dotted solid;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #E3E4E4;
 	
 	text-align: center;
 	padding-top: 0.1cm;
