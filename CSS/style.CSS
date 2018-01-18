@@ -40,13 +40,13 @@ h3 {
 }
 
 
-#toggle{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
+#toggle{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;box-shadow: 3px 3px 2px #E3E4E4;}
 #toggle > p{text-align:center;padding:0;}
 
-#toggle1{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
+#toggle1{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;box-shadow: 3px 3px 2px #E3E4E4;}
 #toggle1 p{text-align:center;padding:0}
 
-#toggle3{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;}
+#toggle3{height:auto; background:#FFFFFF; border:0.5px solid #C12127; margin:1em;box-shadow: 3px 3px 2px #E3E4E4;}
 #toggle3 p{text-align:center;padding:0}
 
 
@@ -80,7 +80,7 @@ li
 
  }
 
-.fleche li:before {
+.list-arrow li:before {
 
 	content: "→ "; /* caractère UTF-8 */
 }
@@ -104,7 +104,7 @@ h3.soustitre {
 	margin-bottom: 0,1cm;
 }
 
-.ParcoursAcademique 
+.majorcontent-padding
 {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -112,21 +112,7 @@ h3.soustitre {
 
 
 
-.ExperiencesPro
-{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-.Hobbies
-{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
-.detailuptilab
+.text-littlesize
 { font-size: 9px; 
 }
 
