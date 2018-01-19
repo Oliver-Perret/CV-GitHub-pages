@@ -47,15 +47,19 @@ body {
 
 
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #C12127;
+
+
+.btn {
+	color: white;
+	background-color: #C12127;
     border-color:  #C12127;
+    transition: color 0.3s ease;
+
 }
 
+.btn:hover {
 
-#header {
-
-	
+	color: #434343;
 }
 
 
@@ -79,7 +83,10 @@ li
 .list-arrow li:before {
 
 	content: "→ "; /* caractère UTF-8 */
+
 }
+
+
 
 h3.soustitre {
 
@@ -153,6 +160,7 @@ h3 {
 
 #wrapper { 
 width: 100%;
+margin: 0 auto;
 right: 0;
 background-size: cover;
 padding-top: 20px;
